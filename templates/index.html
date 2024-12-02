@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Geolocation Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>IP Geolocation Finder</h1>
+        <label for="ip-input">Enter an IP address:</label>
+        <input type="text" id="ip-input" placeholder="e.g., 8.8.8.8">
+        <button id="search-btn">Search</button>
+        
+        <div id="result">
+            <p id="ip-address"></p>
+            <p id="country"></p>
+            <p id="region"></p>
+            <p id="city"></p>
+            <p id="latitude"></p>
+            <p id="longitude"></p>
+        </div>
+        
+        <div id="history">
+            <h3>Search History</h3>
+            <div id="history-list"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 
-IP Geolocation Finder is a web-based tool built using **Flask**, **HTML**, **CSS**, and **JavaScript** that provides real-time geolocation data for any public IP address. By entering an IP address, users can retrieve detailed information such as the country, region, city, and geographical coordinates (latitude and longitude). The application utilizes the **ip-api** geolocation API to fetch location details and supports **history tracking** so users can view previously searched IPs.
+**IP Geolocation Finder** is a web-based tool built using **Flask**, **HTML**, **CSS**, and **JavaScript** that provides real-time geolocation data for any public IP address. By entering an IP address, users can retrieve detailed information such as the country, region, city, and geographical coordinates (latitude and longitude). The application utilizes the **ip-api** geolocation API to fetch location details and supports **history tracking** so users can view previously searched IPs.
 
 Features
 - Enter any **public IP address** to get its **geolocation details**.
